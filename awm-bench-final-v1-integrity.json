@@ -1,0 +1,34 @@
+{
+  "status": "verified",
+  "records": 358,
+  "unique_problem_ids": 358,
+  "correct": 321,
+  "accuracy": 0.8966480446927374,
+  "parse_rate": 1.0,
+  "routes": {
+    "baseline-low": 269,
+    "risk-audit-medium-v1": 49,
+    "economic-repeat-consensus": 40
+  },
+  "sha256": "418a3545f18df725ef2d699d69942b69c666f3bfe4fde6503ff27b427ae00376",
+  "api_usage": {
+    "baseline": {
+      "requests": 358,
+      "input_tokens": 409933,
+      "output_tokens": 25864,
+      "total_tokens": 435797
+    },
+    "risk_audit": {
+      "requests": 78,
+      "input_tokens": 88692,
+      "output_tokens": 22838,
+      "total_tokens": 111530
+    },
+    "rejected_high_judge": {
+      "requests": 21,
+      "input_tokens": 21611,
+      "output_tokens": 13709,
+      "total_tokens": 35320
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "total": 358,
+  "correct": 315,
+  "accuracy": 0.8798882681564246,
+  "parse_rate": 1.0,
+  "category_accuracy": {
+    "Climate change and resilience": 0.9583333333333334,
+    "Economic Considerations": 0.7068965517241379,
+    "irrigation scheduling": 0.9259259259259259,
+    "irrigation technology": 0.9090909090909091,
+    "policy and regulations": 0.9629629629629629,
+    "types of irrigation systems": 0.8679245283018868,
+    "water quality": 0.76
+  },
+  "errors": [
+    {
+      "problem_id": "e20c202d-117d-46af-a668-1979d647dee4",
+      "category": "types of irrigation systems",
+      "gold": "B",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "5110f7d5-c9e2-45f4-9d8e-530ad5e6f4e9",
+      "category": "types of irrigation systems",
+      "gold": "D",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "35f33e6f-49d7-416b-a940-6de3368d2125",
+      "category": "types of irrigation systems",
+      "gold": "A",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "346629e2-2400-407f-a76a-a301032c479b",
+      "category": "types of irrigation systems",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "cd6fa797-a7a7-44dc-930e-1d6868eb3519",
+      "category": "types of irrigation systems",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "3ab6e533-a0ae-411e-9654-94de909b1ee1",
+      "category": "types of irrigation systems",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "703a15b3-7e1f-4c88-8c27-51c18a489218",
+      "category": "types of irrigation systems",
+      "gold": "D",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "4bd7e607-95bc-4952-9bfe-c099a4c9a223",
+      "category": "irrigation scheduling",
+      "gold": "C",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "60231ac1-3489-4f27-ae9a-5ca4ab729aed",
+      "category": "irrigation scheduling",
+      "gold": "B",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "de897703-07a4-40ef-8830-596a79d6bec6",
+      "category": "irrigation technology",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "d0bb26e2-152c-49f8-b27a-edd834a002d8",
+      "category": "irrigation technology",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "02a10fcb-ca6b-4c2a-8ca1-8002d1f820d8",
+      "category": "irrigation technology",
+      "gold": "A",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "67331f72-0edf-44a7-a31d-25d7bdff13a0",
+      "category": "irrigation technology",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "f6a7c4fa-bfe6-4357-81fe-37d75b9dc713",
+      "category": "irrigation technology",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "2ac59716-8093-4745-9e8a-44e326b50f95",
+      "category": "irrigation technology",
+      "gold": "A",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "3df0f39a-dc24-4e46-b70a-4c0b27709b0d",
+      "category": "water quality",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "ca07bb07-4529-4f59-8b1b-00778583cc1d",
+      "category": "water quality",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "17692d33-cad0-4010-9d7c-facd75e4467e",
+      "category": "water quality",
+      "gold": "B",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "c9022412-8aa7-4149-96e4-4a5380d9b1bf",
+      "category": "water quality",
+      "gold": "A",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "7acfe647-7834-4464-a10a-69eaab473131",
+      "category": "water quality",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "89772f13-8fb2-4a5a-b381-3f8cbf6038b2",
+      "category": "water quality",
+      "gold": "D",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "f49886e9-b5d1-409d-a81c-f0bb5347b2a2",
+      "category": "Economic Considerations",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "ff28c68c-85da-4130-8f84-e8cba2a044cd",
+      "category": "Economic Considerations",
+      "gold": "B",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "c97f976d-051b-4dbb-a0a0-815e10b3e805",
+      "category": "Economic Considerations",
+      "gold": "C",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "e18802e7-154d-404c-9088-fe9485376915",
+      "category": "Economic Considerations",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "b93ed737-f1b1-4e98-be43-6a3e397e6952",
+      "category": "Economic Considerations",
+      "gold": "C",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "e7c9fe51-d711-4591-954d-4bb6e4abad80",
+      "category": "Economic Considerations",
+      "gold": "A",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "69320762-68b4-419a-afc1-461b204dcb77",
+      "category": "Economic Considerations",
+      "gold": "A",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "7b89d616-4a36-4e94-93f1-3284159c62e8",
+      "category": "Economic Considerations",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "84afaf0c-73ab-4353-aaee-5a2dcfee0305",
+      "category": "Economic Considerations",
+      "gold": "C",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "0ba06790-58af-451d-bcd1-a93bdeaab9b7",
+      "category": "Economic Considerations",
+      "gold": "C",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "78e9b746-9724-4946-b19c-4d8d15250dc9",
+      "category": "Economic Considerations",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "bda60051-ee17-411b-89d9-53fcdcbb41a5",
+      "category": "Economic Considerations",
+      "gold": "A",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "596842d1-cb02-45ba-a7bf-9be419b05de5",
+      "category": "Economic Considerations",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "1107031e-8bcf-426b-91ac-11e846eedc90",
+      "category": "Economic Considerations",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "7b9583c4-8c2f-4623-83a4-76862c1d9c5b",
+      "category": "Economic Considerations",
+      "gold": "B",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "77174546-22ec-4ef5-ba1d-6b9615fdf1b9",
+      "category": "Economic Considerations",
+      "gold": "A",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "769c4cb7-7b7e-47f2-8535-fc3049c7023a",
+      "category": "Economic Considerations",
+      "gold": "A",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "32adac5a-b412-4d69-bf51-dcdc1b6723c0",
+      "category": "policy and regulations",
+      "gold": "C",
+      "prediction": "B"
+    },
+    {
+      "problem_id": "1b78838c-461a-4bba-862e-b974973ef574",
+      "category": "policy and regulations",
+      "gold": "D",
+      "prediction": "C"
+    },
+    {
+      "problem_id": "4cdc1d90-bd58-410c-bcfc-ae41ed9716ff",
+      "category": "policy and regulations",
+      "gold": "C",
+      "prediction": "D"
+    },
+    {
+      "problem_id": "c2968626-5575-492b-91ed-f417b0c37503",
+      "category": "Climate change and resilience",
+      "gold": "B",
+      "prediction": "A"
+    },
+    {
+      "problem_id": "ebe624e6-3f3e-4023-be9d-4da3b72c5e45",
+      "category": "Climate change and resilience",
+      "gold": "D",
+      "prediction": "A"
+    }
+  ]
+}

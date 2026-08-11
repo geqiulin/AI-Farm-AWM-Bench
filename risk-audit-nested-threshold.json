@@ -1,0 +1,2594 @@
+{
+  "method": "5-fold stratified nested threshold validation",
+  "questions": 358,
+  "correct": 321,
+  "accuracy": 0.8966480446927374,
+  "threshold_counts": {
+    "128": 358
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "selected_threshold": 128,
+      "test_questions": 72,
+      "routed": 10,
+      "correct": 63,
+      "accuracy": 0.875,
+      "training_threshold_scores": {
+        "96": 257,
+        "128": 258,
+        "160": 253,
+        "192": 253,
+        "256": 252
+      }
+    },
+    {
+      "fold": 2,
+      "selected_threshold": 128,
+      "test_questions": 72,
+      "routed": 8,
+      "correct": 66,
+      "accuracy": 0.9166666666666666,
+      "training_threshold_scores": {
+        "96": 255,
+        "128": 255,
+        "160": 251,
+        "192": 251,
+        "256": 250
+      }
+    },
+    {
+      "fold": 3,
+      "selected_threshold": 128,
+      "test_questions": 72,
+      "routed": 11,
+      "correct": 65,
+      "accuracy": 0.9027777777777778,
+      "training_threshold_scores": {
+        "96": 255,
+        "128": 256,
+        "160": 252,
+        "192": 253,
+        "256": 252
+      }
+    },
+    {
+      "fold": 4,
+      "selected_threshold": 128,
+      "test_questions": 71,
+      "routed": 13,
+      "correct": 61,
+      "accuracy": 0.8591549295774648,
+      "training_threshold_scores": {
+        "96": 258,
+        "128": 260,
+        "160": 257,
+        "192": 258,
+        "256": 258
+      }
+    },
+    {
+      "fold": 5,
+      "selected_threshold": 128,
+      "test_questions": 71,
+      "routed": 7,
+      "correct": 66,
+      "accuracy": 0.9295774647887324,
+      "training_threshold_scores": {
+        "96": 255,
+        "128": 255,
+        "160": 251,
+        "192": 253,
+        "256": 252
+      }
+    }
+  ],
+  "predictions": [
+    {
+      "problem_id": "11a51f39-ab0d-4781-806a-354238e14e10",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "39143060-e026-4ad4-a569-51a3d3f48ef8",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "73734332-d059-458f-b438-cf88180d2b16",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5110f7d5-c9e2-45f4-9d8e-530ad5e6f4e9",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "b49bda12-3326-411c-9001-de4ad8c62276",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3ab6e533-a0ae-411e-9654-94de909b1ee1",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "2a35d09e-eb07-4351-87fe-ebcf983277d2",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4bb16e69-a57c-4583-8d71-2f7ba0e1e4af",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c10405ae-a5a6-462b-a390-78792441d74c",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3b04f45e-9a90-4854-8367-6df4b3cdb48f",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c20d1e8f-09ff-4c08-8b6d-961c68dc7a09",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0894e6e8-a585-41c8-8cc4-c914131cb811",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d02f8db3-9ae6-4d30-8e59-0939efb98d8b",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "60231ac1-3489-4f27-ae9a-5ca4ab729aed",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "b45d5a43-9282-4ac1-bfd0-57d2a87239c0",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "dabf54c8-e633-4f98-87b7-6eefdd0986a3",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5f37e4d8-2ed2-45b6-a84f-35b67eeefe48",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ec1c827d-ec78-4af8-868e-41bdf5d37135",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4f8c419b-9b37-4f28-8a92-aa284a5bc502",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "343110d6-f8ed-4f42-9c96-7fa3aa464702",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c352a3d2-eb91-4621-bcee-77fd11def255",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f5c9d025-8531-4eed-a44b-f5e95efb9a6f",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "de897703-07a4-40ef-8830-596a79d6bec6",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "b49969a0-8384-4f15-ad5a-558d54eef562",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "7910f21c-d15d-4cea-9138-4bfeda4f1604",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0a1b398a-efe5-4e6a-ae0c-9e935712e5e9",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "080017f9-7179-4021-8d73-e19d24859806",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "389f6e65-54b9-458a-af7b-3a357b688e4d",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f6a7c4fa-bfe6-4357-81fe-37d75b9dc713",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "2ac59716-8093-4745-9e8a-44e326b50f95",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "ed9a616e-e8da-4929-af76-0cd3c967d216",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "54761791-cb4e-41d8-9a6c-6c7aff383c36",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8a59d9db-2461-46ea-bbb6-de045cef8eda",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "17692d33-cad0-4010-9d7c-facd75e4467e",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "8f1e0584-5a23-447c-acf1-d7b702e96b83",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "c97f976d-051b-4dbb-a0a0-815e10b3e805",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "916896e9-69d8-4c8f-a01b-61d26bd403b6",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5f32215b-920b-47c5-a147-8f6b1f1380de",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "be685def-816e-4dcf-946a-e28c60be30ba",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0c91d6b2-f7bb-4a56-a93e-db75156935b2",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3ff61dba-ec55-42a9-b0d4-90913260a651",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "efbd947e-012f-4113-aec8-09453804b367",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e1393bfb-4598-414a-bc45-f269431ebe4a",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "beaf21be-d9c5-4416-a98a-cc52840850af",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "769c4cb7-7b7e-47f2-8535-fc3049c7023a",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "7cb2ab1d-63df-422e-b99a-61b393eff53e",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "08dc3949-7e0c-4329-9841-d8ed21ec1929",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1588cd48-fb24-4c60-a560-3239c6c239ec",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "aac88e63-bffb-4e79-a792-82bc3e8a54b1",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3a52668e-de79-452b-8907-5eb13ed69041",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "737b3217-5e67-48a4-b7da-9935887d76f1",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "70446dbd-6855-40a3-928e-9d12a4064974",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f5d94a22-42dd-4501-bbf7-c0a1dc7a03e1",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b2c75ed4-1ce5-4147-882a-3a4f73f7fb42",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9f49a681-83c9-445d-99a9-24a430025976",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "74a454ff-7ade-45c6-85b8-5c7fa57ba18b",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f6d210e9-c7a4-4502-a55a-82b920f2ed07",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "569c36da-55cb-4026-9c84-ff0cd17e3a1f",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5d68ccb6-8965-4840-a4fc-4cf2d385816e",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9585f571-9c51-44a1-a7a3-578788c26bcb",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "83cd6c33-0b67-41e1-905d-595f80b67f03",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "32ba9845-7401-439e-ad22-b8728abae3b0",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f4f1e2db-9f67-47f3-a270-f622903f24a2",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0e05031d-074f-4e38-8228-dc6904c8386c",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0ec543cf-b1bd-46d7-9b45-cfcaa2c8a72f",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "07bdfe3e-5d0f-4813-b1a6-d9deb2e2c3c3",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4a921e6f-bba3-4ccd-a243-c8ce8441ef8a",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a10c2c03-8375-41f6-9559-02f827a5a698",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "50e46a1d-3152-4eb6-84d5-6215e14b07fe",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b115e409-6e9b-4072-83ef-73a7646cb89e",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9587ce2f-721c-40a8-8836-cd8c7134f71e",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ebe624e6-3f3e-4023-be9d-4da3b72c5e45",
+      "fold": 1,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "7033b7dd-2cfd-451e-86c3-9d99b0688eca",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a7db2b34-331e-4a94-b9ee-23680e096f36",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "43d75591-90aa-463b-a626-fed9cc4dae3e",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "cce2a4b1-801c-4b5d-8cef-36607c3c0706",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "766876e5-022f-4d8f-b354-75ec15f4350d",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "346629e2-2400-407f-a76a-a301032c479b",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "3ff22fa3-9559-4b39-bfce-04b8836ae125",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "be39c1bc-3c32-4163-837a-03bba0f64e26",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9ac56b2f-e5c5-46e5-94bc-c4b098a60b3d",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4bce28e6-1854-4a59-9a17-0b0ed685b0a8",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8db4437a-28fd-4bd1-b4ef-2c7cbce256ce",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6107768a-2df7-4fa5-9944-f1e60f8ae0f2",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f2fa0c1e-5cac-40c1-8204-324de61606a9",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0bae5cff-e3ec-42f9-a1bf-8ddb411c5ffb",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "01ecc410-45d6-41e2-802b-97586464eb51",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "06df29e8-4c28-48ea-84ee-f0f5bca8e101",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "87418a2d-9ab3-42bc-a153-f346976dfc0b",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8e577aa1-1267-464d-8dab-16d562ca18ce",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "382b28af-c209-46c9-bcfa-ede2696cafc6",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "94d86d46-d698-4539-897d-b549e9c87a9a",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "acf6637e-a0bb-4a26-a327-2aeb44c7f40c",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8b518ab3-c990-4a30-9e0b-e76bd314c912",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5f2f509f-df75-4cdc-b7ef-fe868a497cd4",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "37477ff3-da24-483a-9597-4c5826d6d5dc",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "18e030b4-4bb8-4c2c-ab86-c1efb45708d9",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "987dd879-d5b6-4d6e-994f-f65cd8660949",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "dac69fe7-5df4-4f0b-933f-40a0bca7fba0",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ab1feacc-80c9-4861-a8ba-880c3f3dc516",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "01d39621-97c0-495a-8f72-319f9fd8e829",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ee848ec1-9aa9-4d85-af1f-8ab6b10a0bf8",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "082fea99-d74c-42d6-a11e-51ec74eb3704",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3ec3c831-d417-46a9-a34a-3c643591d8a8",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "36626323-5899-43e0-8ddc-c8fd59436310",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c9022412-8aa7-4149-96e4-4a5380d9b1bf",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "6941f7d7-a036-43c5-b539-a8e9ab3127d2",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f67bcbeb-a923-4ecb-b475-22b689103c5c",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "93d515dd-8297-4993-8f2f-a4d07c5fa160",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "d332b27b-6238-47c7-87b7-406064e9a4a1",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "756ea259-1e3b-4b31-9efb-763eef38e959",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b93ed737-f1b1-4e98-be43-6a3e397e6952",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "4d0056c8-b126-420c-8ff7-2473501bbf85",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "31d73a48-89b5-46ea-bea9-8193554bce8f",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "596842d1-cb02-45ba-a7bf-9be419b05de5",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "eb7806fc-dd2b-4285-8d46-efaed1d80a39",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5bf29a68-5c2b-4d6e-b12d-e1999c8cceec",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "77174546-22ec-4ef5-ba1d-6b9615fdf1b9",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "af4de191-12d1-46f3-8549-f012c19c79c6",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d8ecaeb9-c21f-412c-a86b-73669eb3d7a5",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "117c7bff-23cd-4771-983a-526f83701faa",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8236fee9-0d0e-42c1-bfc4-11068c6f1165",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6e77450a-1cf7-464d-a062-0003e978a25c",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "35e3247a-ce74-449e-9dbf-8f2da42845c8",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2df38bac-440d-4a84-98b5-67433238ce79",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "31fd5f8e-474b-4b0e-8e00-5f23c87cd89f",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "fc9f21dd-6b7e-4373-ac30-9e172aa0a44f",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1f98e2f6-ee20-423f-9d8f-068f74eb6f54",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9d703afd-5fdd-4708-88a8-0bc96fb3283b",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "11cdccdd-b689-4649-ab4f-73d62ec98156",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "73dc9bc7-e1d2-4b3c-b685-61b21029fa20",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "654374dc-ef2d-4cda-ad66-f4df0980f73b",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "75cbefa3-bf7a-4254-aab7-2d804ebc50d0",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1d70cd3a-9080-49b8-b051-9f7601fdfd98",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b956aa66-6183-42bd-81c6-68091ecd295a",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "51390a10-4eb1-4f0b-b431-f7937fda23d0",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "1845ecb5-69c4-45d8-86de-104a70cebceb",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c2968626-5575-492b-91ed-f417b0c37503",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "b78c14ad-ff09-4e1c-aa25-ed44db64f12c",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "11f3b713-0af2-4f9d-9e65-4629b208edd1",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d30a8ba5-0669-4dc0-b612-b4ec1f06e525",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a5f1cd99-1ec4-4e06-9393-e375cd12649f",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "ab75697d-9108-4877-9bb7-a7c048d1e60b",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6b60ce52-2917-4590-9e01-aabd876d4e96",
+      "fold": 2,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "52097a38-a9e6-4ecc-ba66-e44beee2c0f3",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d680f806-404b-4487-93fd-1b290288cb1c",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1e78fed2-fc23-4e11-9767-c1cddf9f55fd",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "35f33e6f-49d7-416b-a940-6de3368d2125",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "aab7974b-1137-499e-9d3b-09ab088c223d",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d294fb60-5994-46ad-84e6-c0e4be7b4051",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f69d9cf6-f0bd-4bc2-b8f8-bad2cfb64c88",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "34e80ea8-b69c-4072-a65f-fa18077d416f",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0c669c9b-ff06-4c5d-9cfc-2bb8ea1be463",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "59374c65-65a0-40d7-b4dc-8ca6888984c9",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0c3a6647-6847-4727-8dfe-25680ce7b493",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e63e4e53-eb8b-4421-8a9b-43da45b2cff9",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "650a5b1f-7b55-41fd-a661-8ef0274c7567",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "38627f90-61e5-42c9-9332-377dd1a2a4ca",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5caec7ae-c37a-4c98-b1d9-44b8d7901c97",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ab2e2c1e-dc15-49e0-a5d8-1614e1506935",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "10a4235d-aa9a-45ef-8642-880e7fde02f4",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6f0133b2-95d7-4907-894a-87d29fe4fe2e",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "47ba7015-e8a0-4b44-863b-ff837489a438",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "42706a0d-db8c-4d78-987d-cb5c51644c6a",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "25b7a3e5-7693-43dd-9bf9-97ae1bd8ad38",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ebd251f5-c34d-4957-81f9-cf91df39cca0",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "3b823e13-a33f-432b-ac36-e1eea635c624",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "062f9dc6-6105-42aa-bbe7-f09e1ce20535",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0a86f271-264b-4b76-aec1-a2fceeeb844b",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2a6aa30c-531d-48ea-9286-ab99e3cda4c2",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "d1577faf-7eb2-457c-86a2-48d0d869d1c2",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "57c0ac6b-ac39-4532-bc8b-90705e36a782",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f761ebd7-1616-4d8f-991d-dd82259b4b9b",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6add5a03-9042-40b3-a579-dced0d3460e9",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0b27442c-edf4-48e9-ad0a-b4f513f50872",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "4e6d77da-5cac-4fea-a8a0-e52ab6a2da6f",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4e91504a-8834-48c1-b3e2-d818a3b228ba",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "89772f13-8fb2-4a5a-b381-3f8cbf6038b2",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "1b23817f-e143-447f-bc81-7cebc1f18930",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e18802e7-154d-404c-9088-fe9485376915",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "e7c9fe51-d711-4591-954d-4bb6e4abad80",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "5cd04e6a-4f70-4cde-9a1e-e4c11f9336a1",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "69320762-68b4-419a-afc1-461b204dcb77",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "84afaf0c-73ab-4353-aaee-5a2dcfee0305",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "61ab3dd0-60c3-41a1-80f8-f9eb8057ee37",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "de2602ef-850c-4b24-8bc9-221a5439a7ba",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "78e9b746-9724-4946-b19c-4d8d15250dc9",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "b4b40a5e-bb3f-421a-be97-7261d56eebe1",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a78fd8f8-edb3-4a98-a09c-37958f6acad1",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c2bb8585-b91e-44d5-badb-8218fe2edaaa",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "3dde2f41-358f-4fa3-a3d7-bbaca6405000",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "32adac5a-b412-4d69-bf51-dcdc1b6723c0",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "50111cb4-0969-48b7-8af3-0f9dd332978a",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3cfb90e6-f956-4e61-ba01-26a89cd76b89",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "fc561a42-f45c-426e-9480-8e56b46e1f26",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "a7a438ed-fb30-4853-be5b-ecb268a8f993",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "af072716-8858-4e3d-9d16-e244cbb7266f",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e00c2cf5-4ba6-4a0f-b733-78bec3f68453",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c8501b8c-8b05-405f-91f4-9abb965a7f71",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9333f48d-e6af-4428-8f03-c49800e72651",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a90eb68c-09f9-45ff-a311-06f9a2adfa34",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "30bfeeea-fc93-4944-84e0-5b348b2d4cd9",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6721bb0a-e5d6-4508-ba96-9b8ca4715f4a",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "994cdd20-3e64-4a35-a64c-4bafbe04f7b0",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "09017f3e-4bde-492f-a9af-f9a07740fb79",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "cbe89fea-0f79-49ab-94d1-076b987b57fc",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f2277cb3-3572-417d-a9f2-c99f83a8f425",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "83a9eb6e-f7f0-42df-b701-a40a567b84f2",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5bf35eff-6e90-41a0-9f44-a1ebeb7b4e86",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "59c4a6c4-c614-4f7a-b571-d4281ab04f28",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "be74b8a1-7c31-4a20-af8d-2d434aaf7f9b",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f970c206-02e1-4037-9a16-75e51b88ff50",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3df5e556-5949-4fc8-8d84-ee47cdefc7fa",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9b27ef16-07d9-4e94-b0e6-673f198d49c1",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4d02794b-b8d5-48a3-a9c4-316c10972e8d",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2aa5243d-089e-48b3-8099-0858ca755f01",
+      "fold": 3,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "cd583ae3-7a7a-47c1-b31e-c2d4bcd57a70",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5e40fdf9-2591-4060-ba15-b214c295d0b4",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "39379da2-ce22-4ba4-b005-cd6d73f6980e",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e20c202d-117d-46af-a668-1979d647dee4",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "db93d11d-78b2-4494-a169-78818dbda488",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f57ef020-9b09-457f-8e1a-ec81738d94f4",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3cc08c70-79ab-40be-9344-8a79ba178b4d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "cd6fa797-a7a7-44dc-930e-1d6868eb3519",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "703a15b3-7e1f-4c88-8c27-51c18a489218",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "d4063b67-a396-40b1-b749-67bd6a188a6e",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "fc50ea39-c4bf-43eb-995a-ca1ffd5bd040",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4bd7e607-95bc-4952-9bfe-c099a4c9a223",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "a6904cc5-7b7e-42c7-90e6-3842609d5fa6",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "15f922da-ec5c-470f-820e-8aa6064801ed",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "cf203481-2614-4986-8a5f-88fdc9167362",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3f82cf0e-8b83-43a4-8803-3f4a3b6f156f",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "bbe12f60-7dfc-46ef-a36b-c6aead2f3eeb",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2891dbf8-8f38-4752-bd1e-1e5dd3c34c9a",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b24a7954-c3f0-4229-8415-8358ba2aabfd",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2befe59e-4f4d-4b48-be5e-adb7e1fa4380",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "25cee92e-f7e5-43bc-b125-7bdb59bfc85d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f536fef0-7e88-40df-8e43-e2ab71262c1e",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "3cdf498d-7690-4deb-ac5f-0300c87d58b6",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d0bb26e2-152c-49f8-b27a-edd834a002d8",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "02a10fcb-ca6b-4c2a-8ca1-8002d1f820d8",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "286e95e1-0775-48c4-a5a8-7ffff1141f64",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "fcd94112-4e4d-490b-87e5-74a8668dd4df",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "67331f72-0edf-44a7-a31d-25d7bdff13a0",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "57d03d6e-63a9-4738-b73b-77886720df4d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "06bdabfe-cc00-41cb-ac0a-74dfbcc9d91e",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2b267f7b-7c08-4142-8c06-a6a04d4155cc",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ca07bb07-4529-4f59-8b1b-00778583cc1d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "2676cdc9-f82b-44b2-8471-ef00d8ba3a2c",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "7acfe647-7834-4464-a10a-69eaab473131",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "31bc617d-21b8-41d5-bd6c-2576c19ad2fa",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e172429f-e09f-4146-98d7-5820282e5186",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "656e7869-4f24-4672-8ce9-49b00cd80940",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "ae15c2a6-8051-41ec-a98b-5a86c5959bab",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "bc8d212c-62b0-4758-9759-ac3a91b57eff",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "7b89d616-4a36-4e94-93f1-3284159c62e8",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "6f45196b-c094-41d0-a0d5-ec28543c0446",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "221cef4e-a8c3-4e75-b473-dc287ea72624",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1107031e-8bcf-426b-91ac-11e846eedc90",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "7b9583c4-8c2f-4623-83a4-76862c1d9c5b",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "096efacd-7b9c-4f86-86b1-7b32734c8577",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "44f9119e-0e1e-45a9-90a9-1494db76ffd3",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "14230922-492a-460c-a26e-80e282571e0c",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "bc471ef2-3277-46dd-8292-96985e641d92",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4cdc1d90-bd58-410c-bcfc-ae41ed9716ff",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": false
+    },
+    {
+      "problem_id": "9e40ccc8-e9ab-4e56-b051-d05daada37fb",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "18b97e94-83d9-4226-8aa5-9c5f9fa99e6e",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "26e2dd57-6bfc-42cd-b289-72890052d174",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "aad73a8a-17e3-4d57-a6c8-af41b0015dd0",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1447f77d-1752-4caf-9746-796c1110a91d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "34844a7c-dbf4-45c8-baf0-1d49147ad64d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0a42505f-a360-4917-ac70-eb452b189a68",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1592e946-fb86-43f3-b419-6f2d8cc1f310",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a2862381-8b5c-411b-b39d-656baa436db7",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a790aaee-3931-4541-8d5b-99ef4720f2a1",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d22e86ee-e0e5-4fdc-85d0-ed41f5520b41",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "864abfde-0a87-4b38-afe3-54d2d9cc9248",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "22f634e2-7c5c-4b4d-9ab5-89617ef689f8",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "59a8415e-e3f8-4a99-a6ea-4879180bdb4d",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "15a5a132-6eac-4795-9356-3910899b741f",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e099e6ee-61b2-44fd-9b3d-859274ebdb9f",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1613bdbe-54aa-4dd4-9827-d28e00b25fa9",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0c22cb21-a1b7-46d4-88a1-ab00babe978b",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "d57e1d72-3eed-4462-89ba-380830e792c8",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "78b6bccd-1edf-4a9a-8fbe-1b9854f1f7d5",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "afc13136-d10b-4689-9470-645de4e38828",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8ece52e7-3534-423d-9d15-4393ba265635",
+      "fold": 4,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "4cc2a467-c1ec-4e65-8edf-abcd4de6e098",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "50891da8-3605-4aab-aee9-bb847ffc0189",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ffc4c397-83ce-4eb9-8e0d-bc05667c78f5",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9a4aee2a-cb13-4d42-8e5d-b524d3476f18",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "a9b7f725-8f8d-4ed5-bf49-3bbcbc49f913",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "092dda72-e231-49b6-8cbf-195f6a342ed7",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "78ad9775-515f-4090-b86e-a8b2d93c9067",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "7322eb79-18da-4d2c-a7d9-ebd95a831fc0",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ee4b273b-5a55-41e9-8aaa-d4cb2557e8e3",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3a0a1a07-f513-42ca-b01d-f1f9dcca10a9",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "c60514cd-b0cb-4993-ae4a-81827b8825c6",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "6c1892c7-768e-4994-b4f1-83ace5573d0c",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "48bca01e-3902-475e-917f-8fa02afa1f11",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f28c9369-acfd-4a0c-94d0-fc34aea82263",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "c9293fa9-5ef7-4bcc-bf71-65c7339d6727",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "169b03b2-d597-4586-86c6-a1723447e6a4",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "68b2ce15-1eee-499e-a944-b3943b292a96",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f815fa80-1f94-403f-a473-01bf67e62ccf",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "69fa2c84-3e6b-4700-b665-23c4e0f0fde6",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b69ca932-65e3-4200-b609-daaef8aad476",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "78a968cc-9cc8-4700-b185-569f9407d051",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "b82375cf-5721-4813-9b77-cb7ff05923b1",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ef338d92-a56d-46be-93f8-9b826eb58cae",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "566771b7-9cca-4260-b187-ba500d40c1c8",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2efa0713-0f60-4a68-baa3-61a653f7c949",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f76e994d-cc5b-4f14-8bfc-ca5407f9ad7d",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "eca55eaf-656c-49cb-be29-046e70728f05",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "374db6ca-3343-4691-b978-ac88cbb3bd76",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "2557d719-593e-472a-a46a-4e7d1a33955f",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3df0f39a-dc24-4e46-b70a-4c0b27709b0d",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "cfc10897-812e-49ba-a5f8-f0bb19d3d8fa",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "90eae751-6b22-4049-ae34-c2b70e7c5804",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "6adcbed6-c168-4098-8d07-8647a3614c5b",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0c36cec6-bc50-491f-b829-ad04a4dac9e5",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f49886e9-b5d1-409d-a81c-f0bb5347b2a2",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "9ac1793d-75b8-49d0-b0e5-84fc286e9bb1",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "70b6ab09-676f-46c5-9ae2-a364ce4d2ba9",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "429f1800-536e-4c31-b29e-03c18e02f5d8",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ff28c68c-85da-4130-8f84-e8cba2a044cd",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "43f7e4f1-70e2-4ece-8caa-c0d8c5a27810",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "04549efd-3904-43c2-b50f-f49aed9b25c7",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "risk-audit-medium-v1",
+      "correct": true
+    },
+    {
+      "problem_id": "0ba06790-58af-451d-bcd1-a93bdeaab9b7",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "5ac888d4-b106-42cd-9650-db3522d6b43a",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "504b6246-7529-4d12-a638-b6e9b0e0b4a2",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "bda60051-ee17-411b-89d9-53fcdcbb41a5",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "04f87cc2-dc3b-49fb-8daa-94b9d7e12ff4",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5d5dd2ec-5978-4f26-a077-3820b8f0e948",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9b6b0a28-4c20-4958-8cc8-38e36b788de3",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "96a67a19-d9d5-4601-a2ae-52dd98ff52d5",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "f2e9325b-ffa3-4f84-840c-2e398fff22ca",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "b0f1ad65-c4bc-4c33-9886-c5cdb1c29fec",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "5e17e3fd-ca2d-42a5-add4-39e0f128225d",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "739268cc-0aba-4a9a-8936-9be17230e56f",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1b78838c-461a-4bba-862e-b974973ef574",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": false
+    },
+    {
+      "problem_id": "5344a925-b505-4ad1-a974-7c88c0dd247a",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e1b29ced-596a-42ea-a13c-c2b0d486fbc7",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "e7dad637-a34e-4c91-9d71-48041d79bfb5",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "3837af0d-688a-4ebd-8244-0f57e9a4affc",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "ebc43492-7a94-4072-91dd-f62d8195b35f",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "9be9a9af-6b61-4190-a92e-9afbf9016b3e",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "dad3ac95-e2c3-4e7e-bfb4-16ff8cfa2949",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "1d3cd3ad-a02e-4f92-bed3-2271297ae20e",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "93148dd2-a8b4-45c5-b671-2333c501f856",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "0184695e-6276-4945-9fbb-7abe5560ed0d",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "54d8583f-cc27-4365-93d3-ca17e7327d1b",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "8a241681-8d5d-4134-a229-6304a7a7bebf",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "efe1cf82-4bbe-468c-a584-73e422b1c70d",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "dc343467-875f-4221-985e-c74e9e2361e9",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "48095dd5-22b4-4d5f-a8c8-8c742b6ce3e3",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "904950ac-16ab-4f54-8350-2951fee73630",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    },
+    {
+      "problem_id": "defe0c9b-64a4-4275-894b-3dcb9feb9b24",
+      "fold": 5,
+      "selected_threshold": 128,
+      "route": "stable-adaptive-luna",
+      "correct": true
+    }
+  ]
+}
